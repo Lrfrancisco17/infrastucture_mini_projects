@@ -31,8 +31,8 @@ If your inventory isn’t already defined globally, specify it:
 Why This Playbook Is Dynamic
 
 Instead of hardcoding package names or actions, you expose them as variables. This allows users to:
-Install any package they want
-Remove any package they want
-Reuse the same playbook across multiple environments
-Integrate it into larger automation workflows or CI/CD pipelines
+Install any package they want  
+Remove any package they want  
+Reuse the same playbook across multiple environments  
+Integrate it into larger automation workflows or CI/CD pipelines  
 
