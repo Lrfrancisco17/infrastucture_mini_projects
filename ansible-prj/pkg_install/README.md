@@ -1,8 +1,7 @@
-#What This Playbook Does
+What This Playbook Does  
 The playbook performs one of two actions on your target hosts:
 
 Install a package (action=install)
-
 Remove a package (action=remove)
 
 The task that runs depends entirely on the value of the action variable. This makes the playbook flexible without needing to modify the YAML each time.
@@ -14,9 +13,8 @@ How to Run the Playbook
 You can run the playbook using ansible-playbook and override variables directly from the command line.
 
 1. Install a Package
-
-#ansible-playbook pkg_install.yml -e "package=httpd action=install"
-This will install the httpd package on all hosts in your inventory.
+-ansible-playbook pkg_install.yml -e "package=httpd action=install"
+-This will install the httpd package on all hosts in your inventory.
 
 2. Remove a Package
 bash
