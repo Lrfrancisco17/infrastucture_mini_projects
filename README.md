@@ -1,6 +1,6 @@
 # infrastucture_mini_projects
 
-These mini‑projects provide reusable scripts, practical examples, and additional context needed to apply the concepts in a live environment. Each project includes clear instructions on how to use, adapt, and extend the materials.
+This collection of mini‑projects showcases reusable scripts, troubleshooting steps, and practical guidance for real-world environments. Every project includes clear instructions on how to run, customize, and apply the solution in a live setting.
 
 Contact Information:  
 Published by: Luis Francisco  
