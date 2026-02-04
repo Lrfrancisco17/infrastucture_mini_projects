@@ -13,22 +13,22 @@ How to Run the Playbook
 You can run the playbook using ansible-playbook and override variables directly from the command line.
 
 1. Install a Package  
-   ansible-playbook pkg_install.yml -e "package=httpd action=install"
+   ansible-playbook pkg_install.yml -e "package=httpd action=install"  
    This will install the httpd package on all hosts in your inventory.
 
-2. Remove a Package
-bash
-ansible-playbook pkg_install.yml -e "package=httpd action=remove"
-This removes the package instead.
+2. Remove a Package  
+    ansible-playbook pkg_install.yml -e "package=httpd action=remove"  
+    This removes the package instead.
 
 
 
 Optional: Use an Inventory File
 If your inventory isn’t already defined globally, specify it:
 
-#ansible-playbook -i inventory.ini pkg_install.yml -e "package=vim action=install"
+3. Add inventory flag to point to inventory       
+   ansible-playbook -i inventory.ini pkg_install.yml -e "package=vim action=install"
 
-#Why This Playbook Is Dynamic
+Why This Playbook Is Dynamic
 
 Instead of hardcoding package names or actions, you expose them as variables. This allows users to:
 Install any package they want
