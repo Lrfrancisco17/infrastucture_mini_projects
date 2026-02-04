@@ -1,0 +1,19 @@
+---
+- name: Install package on remote hosts
+  hosts: all
+  become: true
+  vars:
+    action: install
+  tasks:
+
+  - name: Install package on remote host
+    package:
+      name: "{{ package }}"
+      state: present
+    when: action == "install"
+
+  - name: Remove package on remote hosts
+    package:
+      name: "{{ package }}"
+      state: absent
+    when: action == "remove"
