@@ -12,7 +12,7 @@ Both tasks use the package module, so it works across multiple Linux distributio
 How to Run the Playbook
 You can run the playbook using ansible-playbook and override variables directly from the command line.
 
-1. Install a Package
+1. Install a Package  
    ansible-playbook pkg_install.yml -e "package=httpd action=install"
    This will install the httpd package on all hosts in your inventory.
 
