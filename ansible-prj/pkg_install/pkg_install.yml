@@ -1,5 +1,5 @@
 ---
-- name: Install package on remote hosts
+- name: Install or remove package on remote hosts
   hosts: all
   become: true
   vars:
