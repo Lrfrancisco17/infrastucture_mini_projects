@@ -9,7 +9,7 @@
   - name: Install package on remote host
     package:
       name: "{{ package }}"
-      state: present
+      state: present           # You can install latest package by changing "present" value to "latest"
     when: action == "install"
 
   - name: Remove package on remote hosts
