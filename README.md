@@ -1,4 +1,4 @@
-# Infrastucture_Mini_Projects
+# Mini_Projects
 
 This collection of mini‑projects showcases reusable scripts, troubleshooting steps, and practical guidance for real-world environments. Every project includes clear instructions on how to run, customize, and apply the solution in a live setting.
   
