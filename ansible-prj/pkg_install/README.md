@@ -36,6 +36,9 @@ Remove any package they want
 Reuse the same playbook across multiple environments  
 Integrate it into larger automation workflows or CI/CD pipelines  
 
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/bpNCfQMGl_I&t=4s/0.jpg)](https://www.youtube.com/watch?v=bpNCfQMGl_I&t=4s)  bpNCfQMGl_I&t=4s
+
+
 Published by: Luis Francisco  
 Contact: lrfrancisco17@gmail.com  
 Social: https://www.linkedin.com/in/luisfrancisco  
