@@ -4,27 +4,21 @@ Zombie processes don’t consume CPU, but they do indicate that a parent process
 
 
 Installation
-Make the script executable:
+Make the script executable:  
+  #chmod +x check_zombies.sh
 
-bash
-chmod +x check_zombies.sh
-(Optional) Move it into your PATH:
+(Optional) Move it into your PATH:  
+  #sudo mv check_zombies.sh /usr/local/bin/check_zombies
 
-bash
-sudo mv check_zombies.sh /usr/local/bin/check_zombies
-Now you can run it from anywhere:
+Now you can run it from anywhere:  
+  #check_zombies
 
-bash
-check_zombies
+Run the script:  
+  #./check_zombies.sh  
 
-Usage
-Run the script:
 
-bash
-./check_zombies.sh
+
 Example output:
-
-Code
 Checking for zombie processes...
 
 Zombie processes detected:
@@ -35,7 +29,8 @@ Zombie Process:
 Parent Process:
   5678  S  /usr/bin/python3 server.py
 --------------------------------------------
-If no zombies are found:
 
-Code
-No zombie processes found.
+
+
+If no zombies are found:
+  No zombie processes found.
