@@ -1,3 +1,6 @@
+[![Watch the video](https://github.com/Lrfrancisco17/mini_projects/blob/main/thumnails/ans_ply_var_thumnail.png)](https://www.youtube.com/watch?v=bpNCfQMGl_I&t=9s)
+
+
 What This Playbook Does  
 The playbook performs one of two actions on your target hosts:
 
