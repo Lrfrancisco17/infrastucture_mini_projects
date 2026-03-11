@@ -1,4 +1,4 @@
- [![Watch the video](https://github.com/Lrfrancisco17/mini_projects/blob/main/thumnails/Deploy_pkg_remote)](https://www.youtube.com/watch?v=bpNCfQMGl_I&t=9s)
+ [![Watch the video](https://github.com/Lrfrancisco17/mini_projects/blob/main/thumnails/Deploy_pkg_remote.png)](https://www.youtube.com/watch?v=bpNCfQMGl_I&t=9s)
 
 
 What This Playbook Does  
